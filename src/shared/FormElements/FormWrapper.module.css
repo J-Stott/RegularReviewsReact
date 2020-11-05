@@ -1,0 +1,10 @@
+.form-wrapper {
+  background-color: #51565c;
+  border: 1px solid #76797c;
+  border-radius: 3px;
+  padding: 20px;
+  margin: 0 auto;
+  transition: 0.3s;
+  max-width: 40rem;
+  box-sizing: border-box;
+}

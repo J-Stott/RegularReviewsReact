@@ -1,0 +1,15 @@
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.danger {
+    text-align: center;
+    color: #ff3e3e;
+    padding-bottom: 1rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}

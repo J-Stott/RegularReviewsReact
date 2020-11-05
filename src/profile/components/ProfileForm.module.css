@@ -1,0 +1,44 @@
+.form-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.label {
+  flex-basis: 100%;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.inputs {
+  flex-basis: 100%;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.button button {
+  width: 100%;
+}
+
+/* Medium devices (tablets, 768px and up */
+@media (min-width: 768px) {
+  .form-div {
+    justify-content: space-evenly;
+    flex-direction: row;
+  }
+
+  .label {
+    flex-basis: 40%;
+  }
+
+  .inputs {
+    flex-basis: 60%;
+  }
+
+  .button {
+    justify-content: flex-end;
+  }
+}

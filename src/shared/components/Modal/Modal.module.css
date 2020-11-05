@@ -1,0 +1,19 @@
+.modal {
+  z-index: 4;
+  position: fixed;
+  top: 25vh;
+  left: 15%;
+  width: 70%;
+  padding: 0.75rem;
+  background-color: #51565c;
+  border: 1px solid #888;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 0.25rem;
+}
+
+@media (min-width: 768px) {
+  .modal {
+    left: calc(50% - 20rem);
+    width: 40rem;
+  }
+}

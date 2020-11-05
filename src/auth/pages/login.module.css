@@ -1,0 +1,12 @@
+.remember {
+    margin-bottom: 1rem;
+}
+
+.remember input[type=checkbox]{
+    margin: 0;
+}
+
+.forgot{
+    color: #efefef;
+    margin-left: 1rem;
+}

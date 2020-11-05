@@ -1,0 +1,52 @@
+.wrapper {
+  display: flex;
+  width: 100%;
+}
+
+.wrapper a{
+  color: #e7e7e7;
+}
+
+.image {
+    margin-right: 25px;
+}
+
+.game-art {
+  position: relative;
+  z-index: 1;
+  width: 105px;
+  height: auto;
+  border: 3px solid #c4c4c4;
+  transition: 0.3s;
+}
+
+.game-art:hover {
+  border: 3px solid #ffffff;
+}
+
+.author {
+  margin-bottom: 5px;
+  position: relative;
+  z-index: 1;
+}
+
+.author a:hover {
+  text-decoration: underline;
+}
+
+.author-data-wrapper {
+    display: flex;
+    margin-top: 20px;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .game-art {
+    width: 118px;
+  }
+
+  .image {
+    margin-right: 40px;
+  }
+}

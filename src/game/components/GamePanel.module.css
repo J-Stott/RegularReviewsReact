@@ -1,0 +1,27 @@
+.game-art {
+  width: 145px;
+  height: auto;
+  border: 3px solid #ffffff;
+}
+
+.image-container {
+  margin-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.button-margin {
+  margin-top: 1.0rem;
+}
+
+/* Medium devices (tablets, 768px and up */
+@media (min-width: 768px) {
+  .game-art {
+    width: 198px;
+  }
+}

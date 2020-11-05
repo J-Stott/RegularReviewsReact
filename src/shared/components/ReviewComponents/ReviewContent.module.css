@@ -1,0 +1,11 @@
+.content-container {
+  margin: 1rem 0;
+}
+
+.review-heading {
+  margin-bottom: 1rem;
+}
+
+.content {
+  white-space: pre-wrap;
+}

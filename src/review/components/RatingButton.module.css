@@ -1,0 +1,35 @@
+.button {
+    display: inline-block;
+    padding: 0.5rem 0.75rem;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    font-weight: 400;
+    transition: 0.3s;
+    border-style: none;
+    cursor: pointer;
+    border: 1px solid #d1d2d3;
+    transition: 0.3s;
+}
+
+.no-rating {
+    color: #d1d2d3;
+    background-color: Transparent;
+}
+
+.no-rating:hover {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+.no-rating:disabled {
+    color: #ffffff;
+    border-color: #a7a7a7;
+    cursor: not-allowed;
+}
+
+.rating {
+    color: #30363b;
+    background-color: #f8f9fa;
+}

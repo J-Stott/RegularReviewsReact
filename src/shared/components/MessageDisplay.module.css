@@ -1,0 +1,16 @@
+.container {
+    text-align: center;
+    margin: 0.25rem 0 0.75rem 0;
+}
+
+.info {
+    color: #e7e7e7;
+}
+
+.success {
+    color: #88e471;
+}
+
+.failure {
+    color: #f14a4a;
+}

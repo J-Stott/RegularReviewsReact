@@ -1,0 +1,29 @@
+.nav-menu {
+    position: absolute;
+    background-color: #27292c;
+    color: #e7e7e7;
+    border-radius: 0 0 3px 3px;
+    top: 100%;
+    left: auto;
+    right: 0;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    z-index: 1;
+}
+
+.nav-menu a{
+    text-decoration: none;
+    color: #e7e7e7;
+    display: block;
+    clear: both;
+    padding: 0.25rem 1.5rem;
+    width: 100%;
+    box-sizing: border-box;
+    transition: 0.3s;
+    white-space: nowrap;
+}
+
+.nav-menu a:hover{
+    color: #FFFFFF;
+    background-color: #40444b;
+}

@@ -1,0 +1,17 @@
+.review {
+    position: relative;
+}
+
+.review a {
+    text-decoration: none;
+}
+
+.review h1 a::after {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}

@@ -1,0 +1,36 @@
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.checkbox-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.checkbox-container label {
+    padding-bottom: 0.2rem;
+}
+
+.button-gap {
+  margin-right: 0.5rem;
+}
+
+.ratings-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0.5rem 0 1rem 0;
+}
+
+/* Medium devices (tablets, 768px and up */
+@media (min-width: 768px) {
+  .button-container {
+    justify-content: flex-end;
+  }
+
+  .checkbox-container {
+    justify-content: flex-end;
+  }
+}

@@ -1,0 +1,19 @@
+.star-container {
+    margin: 0.4rem 0;
+}
+
+.star {
+    font-size: 1.25rem;
+}
+
+.star-big {
+  font-size: 1.5rem;
+}
+
+.star-highlight {
+  color: #ffdd44;
+}
+
+.star-lowlight {
+  color: #8a8f92;
+}

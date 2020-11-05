@@ -1,0 +1,41 @@
+.content {
+    display: flex;
+}
+
+.content-container,
+.content form{
+    width: 100%;
+}
+
+.content-container {
+    white-space: pre-wrap;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 3px solid #c4c4c4;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button-container button {
+    margin-left: 0.5rem;
+}
+
+.avatar-container {
+    margin: 0 1rem 0 1.25rem;
+}
+
+.author-container {
+    margin: 0.75rem 0;
+    font-size: 1.25rem;
+}
+
+.comment-container {
+    margin: 0.5rem 0;
+}

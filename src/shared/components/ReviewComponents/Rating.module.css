@@ -1,0 +1,20 @@
+.rating-container {
+  flex-basis: 50%;
+  max-width: 50%;
+}
+
+/* Medium devices (tablets, 768px and up */
+@media (min-width: 768px) {
+  .rating-container {
+    flex-basis: 33.333333%;
+    max-width: 33.333333%;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .rating-container {
+    flex-basis: 20%;
+    max-width: 20%;
+  }
+}

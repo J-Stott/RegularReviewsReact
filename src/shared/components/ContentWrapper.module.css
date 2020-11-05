@@ -1,0 +1,51 @@
+.content-wrapper {
+  background-color: #51565c;
+  border: 1px solid #76797c;
+  border-radius: 3px;
+  padding: 20px;
+  margin: 0 auto 30px auto;
+  transition: 0.3s;
+}
+
+.content-wrapper-hoverable {
+  background-color: #51565c;
+  border: 1px solid #76797c;
+  border-radius: 3px;
+  padding: 20px;
+  margin: 0 auto 30px auto;
+  transition: 0.3s;
+}
+
+.content-wrapper-hoverable:hover {
+  border: 1px solid #c4cdd6;
+  cursor: pointer;
+}
+
+/*
+.review-content {
+  white-space: pre-wrap;
+}
+
+.rating-size {
+  font-size: 24px;
+}
+
+
+.review-profile-picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: 3px solid #ffffff;
+}
+
+.review-date {
+  margin-bottom: 0.1rem;
+}
+*/
+/* Small devices (landscape phones, 576px and up) 
+@media (min-width: 576px) {
+  .review-game-art {
+    width: 118px;
+  }
+}
+*/
